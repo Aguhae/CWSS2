@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/item_cube",
+ "textures": {
+  "all": "cwss:block/sulfur_bricks"
+ }
+}
