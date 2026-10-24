@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/stairs_north_bottom_straight",
+ "textures": {
+  "all": "cwss:block/yellow_concrete"
+ }
+}
