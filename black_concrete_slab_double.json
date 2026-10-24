@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/cube",
+ "textures": {
+  "all": "cwss:block/black_concrete"
+ }
+}

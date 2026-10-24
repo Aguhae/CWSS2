@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/slab_top",
+ "textures": {
+  "all": "cwss:block/black_wool"
+ }
+}

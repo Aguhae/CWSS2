@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/slab_bottom",
+ "textures": {
+  "all": "cwss:block/blue_concrete"
+ }
+}
