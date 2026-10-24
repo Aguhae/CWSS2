@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/stairs_east_top_straight",
+ "textures": {
+  "all": "cwss:block/blue_wool"
+ }
+}

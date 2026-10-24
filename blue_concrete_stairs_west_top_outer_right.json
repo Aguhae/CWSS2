@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/stairs_west_top_outer_right",
+ "textures": {
+  "all": "cwss:block/blue_concrete"
+ }
+}
