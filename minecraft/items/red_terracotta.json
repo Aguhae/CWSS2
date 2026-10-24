@@ -1,0 +1,40 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "chiseled_cinnabar",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/chiseled_cinnabar"
+    }
+   },
+   {
+    "when": "chiseled_cinnabar|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/chiseled_cinnabar_block"
+    }
+   },
+   {
+    "when": "polished_cinnabar",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/polished_cinnabar"
+    }
+   },
+   {
+    "when": "polished_cinnabar|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/polished_cinnabar_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/red_terracotta"
+  }
+ }
+}

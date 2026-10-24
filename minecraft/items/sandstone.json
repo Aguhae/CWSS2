@@ -1,0 +1,26 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "sulfur",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/sulfur"
+    }
+   },
+   {
+    "when": "sulfur|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/sulfur_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/sandstone"
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "polished_sulfur",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/polished_sulfur"
+    }
+   },
+   {
+    "when": "polished_sulfur|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/polished_sulfur_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/smooth_sandstone"
+  }
+ }
+}

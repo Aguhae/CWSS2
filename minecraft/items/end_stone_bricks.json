@@ -1,0 +1,26 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "sulfur_bricks",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/sulfur_bricks"
+    }
+   },
+   {
+    "when": "sulfur_bricks|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/sulfur_bricks_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/end_stone_bricks"
+  }
+ }
+}

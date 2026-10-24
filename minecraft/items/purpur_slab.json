@@ -1,0 +1,68 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "magenta_concrete_slab",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/magenta_concrete_slab"
+    }
+   },
+   {
+    "when": "magenta_concrete_slab|bottom",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/magenta_concrete_slab_bottom"
+    }
+   },
+   {
+    "when": "magenta_concrete_slab|top",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/magenta_concrete_slab_top"
+    }
+   },
+   {
+    "when": "magenta_concrete_slab|double",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/magenta_concrete_slab_double"
+    }
+   },
+   {
+    "when": "magenta_wool_slab",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/magenta_wool_slab"
+    }
+   },
+   {
+    "when": "magenta_wool_slab|bottom",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/magenta_wool_slab_bottom"
+    }
+   },
+   {
+    "when": "magenta_wool_slab|top",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/magenta_wool_slab_top"
+    }
+   },
+   {
+    "when": "magenta_wool_slab|double",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/magenta_wool_slab_double"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/purpur_slab"
+  }
+ }
+}

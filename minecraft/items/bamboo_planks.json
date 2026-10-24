@@ -1,0 +1,26 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "potent_sulfur",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/potent_sulfur"
+    }
+   },
+   {
+    "when": "potent_sulfur|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/potent_sulfur_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/bamboo_planks"
+  }
+ }
+}

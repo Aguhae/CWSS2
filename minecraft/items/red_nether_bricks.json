@@ -1,0 +1,26 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "cinnabar_bricks",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/cinnabar_bricks"
+    }
+   },
+   {
+    "when": "cinnabar_bricks|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/cinnabar_bricks_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/red_nether_bricks"
+  }
+ }
+}

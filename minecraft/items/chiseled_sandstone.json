@@ -1,0 +1,26 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "chiseled_sulfur",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/chiseled_sulfur"
+    }
+   },
+   {
+    "when": "chiseled_sulfur|block",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/chiseled_sulfur_block"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/chiseled_sandstone"
+  }
+ }
+}

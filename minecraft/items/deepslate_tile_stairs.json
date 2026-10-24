@@ -1,0 +1,586 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "gray_concrete_stairs",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/gray_concrete_stairs"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_top_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|north_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_north_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_top_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|east_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_east_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_top_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|south_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_south_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_top_straight"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_concrete_stairs|west_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_concrete_stairs_west_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/gray_wool_stairs"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_top_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|north_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_north_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_top_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|east_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_east_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_top_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|south_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_south_top_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_bottom_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_bottom_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_bottom_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_bottom_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_bottom_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_bottom_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_bottom_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_bottom_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_bottom_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_bottom_outer_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_top_straight",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_top_straight"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_top_inner_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_top_inner_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_top_inner_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_top_inner_right"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_top_outer_left",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_top_outer_left"
+    }
+   },
+   {
+    "when": "gray_wool_stairs|west_top_outer_right",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/gray_wool_stairs_west_top_outer_right"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/deepslate_tile_stairs"
+  }
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:custom_model_data",
+  "cases": [
+   {
+    "when": "red_concrete_slab",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/red_concrete_slab"
+    }
+   },
+   {
+    "when": "red_concrete_slab|bottom",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/red_concrete_slab_bottom"
+    }
+   },
+   {
+    "when": "red_concrete_slab|top",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/red_concrete_slab_top"
+    }
+   },
+   {
+    "when": "red_concrete_slab|double",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/red_concrete_slab_double"
+    }
+   },
+   {
+    "when": "red_wool_slab",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:item/red_wool_slab"
+    }
+   },
+   {
+    "when": "red_wool_slab|bottom",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/red_wool_slab_bottom"
+    }
+   },
+   {
+    "when": "red_wool_slab|top",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/red_wool_slab_top"
+    }
+   },
+   {
+    "when": "red_wool_slab|double",
+    "model": {
+     "type": "minecraft:model",
+     "model": "cwss:block/red_wool_slab_double"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:block/red_nether_brick_slab"
+  }
+ }
+}
