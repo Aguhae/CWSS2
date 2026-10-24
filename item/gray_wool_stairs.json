@@ -1,0 +1,6 @@
+{
+ "parent": "cwss:geo/item_stairs",
+ "textures": {
+  "all": "cwss:block/gray_wool"
+ }
+}
